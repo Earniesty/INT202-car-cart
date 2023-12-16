@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="classicmodelfri:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>classicmodelfri</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="classicmodelfri-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="classicmodelfri:war exploded" />
+    </root>
+  </artifact>
+</component>
